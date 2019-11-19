@@ -1,25 +1,29 @@
 {
-  "name": "beaglebone-adc",
-  "version": "1.0.0",
-  "description": "a NodeJS library for reading analog pins on the Beaglebone",
+  "name": "beaglebonejs",
+  "version": "0.0.1",
+  "description": "A lightweight NodeJS I/O library for the BeagleBone",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/haytham43/beaglebone-adc.git"
+    "url": "git+https://github.com/haytham43/beaglebonejs.git"
   },
   "keywords": [
     "beaglebone",
     "adc",
-    "analog",
+    "serialnumber",
     "nodejs"
   ],
   "author": "Haytham Halimeh <haytham.halimeh@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/haytham43/beaglebone-adc/issues"
+    "url": "https://github.com/haytham43/beaglebonejs/issues"
   },
-  "homepage": "https://github.com/haytham43/beaglebone-adc#readme"
+  "homepage": "https://github.com/haytham43/beaglebonejs#readme",
+  "dependencies": {}
 }
